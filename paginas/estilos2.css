@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-image: linear-gradient(to top, #ffffff, #dfdcf5, #bdbaec, #9999e2, #717ad8);
+    font-family: 'Oswald', sans-serif !important;
+font-family: 'VT323', monospace !important;
+}
+
+.color-nav{
+    background-color:#1B1B1B ;
+}
+
+
+.nav-principal :hover{
+    font-size: 2em;
+    color:#FBC02D;
+}
+ 
+
+.color-font{
+color: wheat !important;
+}
+
+
+
+
+.masthead{
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: #ffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+
+h2{
+    font-size: 10rem;
+}
+
+
+.img-seccion2{
+    height: 80%;
+    width: 100%;
+    margin-top:13vh;
+    border-radius: 25px;
+    border:solid 2px #FBC02D;
+    box-shadow: 10px 6px 12px -4px rgba(255,180,0,0.75);
+    -webkit-box-shadow: 10px 6px 12px -4px rgba(255,180,0,0.75);
+    -moz-box-shadow: 10px 6px 12px -4px rgba(255,180,0,0.75);
+}
+
+
+.seccion-4-video{
+
+    box-shadow: 12px 6px 12px -4px #000;
+}
+.seccion4 p{
+    font-size: 1.5em;
+    background-color: #9999e2;
+    height: 15vh;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px #9999e2;
+    box-shadow: 12px 6px 12px -4px #000;
+}
+
+
+@media (max-width:1000px){
+    .seccion4 p{font-size: 1em;}
+}
+
+@media (max-width:500px){
+    .seccion4 p{font-size: 0.5em;}
+}
+
+
+
+
+
+.card{
+    box-shadow: 12px 6px 12px -4px #000;
+}
+
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+@media (max-width:768px){
+    .masthead{min-height: 35vh;}
+h2{
+    font-size: 5rem;
+}
+}
+
+.cursos1{
+    display: grid;
+    margin-top: 25vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 12;
+    grid-template-rows: 2;
+    height: 50vh;
+
+   
+}
+
+.cursos1 img{
+    grid-column-start:1 ;
+    grid-column-end: 12;
+    grid-template-rows: 1/2;
+    height: 45vh;
+    width: 100%;
+  
+}
+
+
+.titulo2{
+    margin-top: 10vh;
+    font-size: 6rem;
+}
+
+
+@media (max-width:1370px){
+    .titulo2{font-size: 6rem;}
+}
+
+@media (max-width:1200px){
+    .titulo2{font-size: 4rem;}
+}
+
+@media (max-width:700px){
+    .titulo2{font-size: 3rem;}
+}
+
+@media (max-width:700px){
+    .titulo2{font-size: 2rem;}
+}
+
+
+.seccion8 h3{
+font-size: 5em;
+}
+@media (max-width:700px){
+    .seccion8 h3{font-size: 2rem;}
+}
+
+
+.contactanos{
+    font-size: 6rem;
+}
+
+@media (max-width:1770px){
+    .contactanos{font-size: 2rem;}
+}
+
+
+textarea{
+    width: 100px;
+    height: 50px;
+    resize: none;
+}
+
+
+
+@media (max-width:860px){
+    .formulario{display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 400px;}
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+@media (max-width:650px){
+    .videobecas  {width: 360;
+    height: 160;}
+}
+
+@media (max-width:550px){
+    .titulo-becas-alumnos  h2 {font-size: 2em;}
+}
+
+
+
+@media (max-width:550px){
+    .beca-test h2 {font-size: 2em;}
+}
+
+.video-publi{
+    border: solid 3px #0a1a2a;
+    box-shadow: 12px 6px 12px -4px #000;
+}
